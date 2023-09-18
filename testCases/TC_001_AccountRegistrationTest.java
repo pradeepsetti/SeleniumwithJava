@@ -32,6 +32,8 @@ public class TC_001_AccountRegistrationTest extends BaseClass{
 		
 		regpage.setPrivacyPolicy();
 		
+		regpage.clickRadiobtn();
+		
 		regpage.clickContinue();
 		
 		String confmsg=regpage.getConfirmationMsg();
